@@ -82,3 +82,26 @@ header {
 .header-register a:hover {
   box-shadow: 0 0 5px 4px rgba(195, 0, 255, 0.637);
 }
+
+/* currency container styles */
+
+.currencys {
+  width: 60rem;
+  background: rgba(255, 255, 255, 0.438);
+  border-radius: 1rem;
+  margin: 5rem 2rem;
+}
+
+/* currency items styles */
+
+.currency-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1rem;
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid rgb(94, 69, 255);
+  border-radius: 1rem;
+}
