@@ -1,0 +1,84 @@
+/* add fonts */
+@import url("https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&display=swap");
+
+/* default css */
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+body {
+  background: #051134;
+  color: rgb(255, 255, 255);
+  font-family: "Kameron", serif;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+/* custom css */
+
+/* header styles */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+.header-logo {
+  font-size: 1.7rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+/* header menu styles */
+
+.menu-item {
+  position: relative;
+  margin-left: 0.7rem;
+  transition: all 0.5s ease;
+}
+.menu-item:before {
+  content: "";
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background: rgba(195, 0, 255, 0.534);
+  transition: all 0.7s ease;
+}
+.menu-item:hover:before {
+  width: 100%;
+}
+
+/* header register section styles */
+
+.header-register a {
+  padding: 0.5rem 2rem;
+  border: 1px solid rgb(98, 0, 255);
+  border-radius: 1rem;
+  transition: all 0.5s ease;
+}
+.header-register a:hover {
+  box-shadow: 0 0 5px 4px rgba(195, 0, 255, 0.637);
+}
