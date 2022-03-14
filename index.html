@@ -31,7 +31,7 @@
           <a href="#"><i class="fa fa-coins text-warning"></i> Crypto Price</a>
         </section>
         <!-- header menu -->
-        <nav class="header-navbar mt-2">
+        <nav class="header-navbar mt-2 ms-4 d-none d-md-block">
           <ul>
             <li class="menu-item"><a href="#">About</a></li>
             <li class="menu-item"><a href="#">Stories</a></li>
@@ -41,25 +41,34 @@
         </nav>
       </section>
       <!-- register btns -->
-      <section class="header-register">
-        <a href="#" class="me-3">Signin</a>
+      <section class="header-register d-none d-sm-block">
+        <a href="#" class="me-sm-3">Signin</a>
         <a href="#">Create account</a>
+      </section>
+      <section class="burger-menu">
+        <button class="fa fa-list"></button>
       </section>
     </header>
 
     <main class="d-flex justify-content-center">
       <!-- currencys price section -->
       <section class="currencys">
-        <ul class="d-flex flex-wrap justify-content-center">
+        <ul
+          class="d-flex flex-wrap justify-content-center"
+          id="currencys-container"
+        >
           <!-- currencys item -->
-          <li class="currency-item">
-            <i class="fa fa-coins"></i>
-            <p>39000.00 $</p>
-          </li>
         </ul>
       </section>
     </main>
 
+    <!-- axios scripts link -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"
+      integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- Bootstrap scripts link -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"
