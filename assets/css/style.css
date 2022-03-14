@@ -13,7 +13,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #051134;
+  background: #171920;
   color: rgb(255, 255, 255);
   font-family: "Kameron", serif;
 }
@@ -74,7 +74,7 @@ header {
 /* header register section styles */
 
 .header-register a {
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   border: 1px solid rgb(98, 0, 255);
   border-radius: 1rem;
   transition: all 0.5s ease;
@@ -87,7 +87,7 @@ header {
 
 .currencys {
   width: 60rem;
-  background: rgba(255, 255, 255, 0.438);
+  background: rgb(3 0 30 / 44%);
   border-radius: 1rem;
   margin: 5rem 2rem;
 }
@@ -104,4 +104,17 @@ header {
   height: 8rem;
   border: 1px solid rgb(94, 69, 255);
   border-radius: 1rem;
+}
+.currencys-img {
+  width: 3rem;
+  height: 3rem;
+}
+.currency-item:hover {
+  box-shadow: 0 0 5px 4px rgba(195, 0, 255, 0.637);
+}
+
+@media (max-width: 500px) {
+  .header-logo {
+    font-size: 1.5rem;
+  }
 }
