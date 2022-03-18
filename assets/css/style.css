@@ -113,6 +113,28 @@ header {
   box-shadow: 0 0 5px 4px rgba(195, 0, 255, 0.637);
 }
 
+#burger-menu-btn {
+  background: none;
+  color: aliceblue;
+}
+
+#burger-menu-container {
+  position: absolute;
+  left: 0;
+  top: 4rem;
+  width: 100%;
+  background: #000;
+}
+
+#burger-menu-ul li {
+  width: 100%;
+  text-align: center;
+}
+
+#burger-menu-ul li:hover {
+  background-color: #171920;
+}
+
 @media (max-width: 500px) {
   .header-logo {
     font-size: 1.5rem;
