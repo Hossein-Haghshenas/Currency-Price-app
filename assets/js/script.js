@@ -41,3 +41,11 @@ const displayData = (data) => {
     container.appendChild(newItem);
   }
 };
+
+const menuBtn = document.querySelector("#burger-menu-btn");
+const menuItem = document.querySelector("#burger-menu-container");
+const register = document.querySelector(".header-register");
+
+menuBtn.addEventListener("click", () => {
+  menuItem.classList.toggle("d-none");
+});
